@@ -7,6 +7,12 @@ namespace lesson4
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Welcome();
+        }
+
+        public static void Welcome()
+        {
+            Console.WriteLine("Welcome to Earth!");
         }
     }
 }
