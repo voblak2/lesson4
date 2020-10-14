@@ -9,6 +9,7 @@ namespace lesson4
             Console.WriteLine("Hello World!");
             Welcome();
             NewMethod();
+            ForRealBro();
         }
 
         public static void Welcome()
@@ -19,6 +20,11 @@ namespace lesson4
         public static void NewMethod()
         {
             Console.WriteLine("I hope this works!");
+        }
+
+        public static void ForRealBro()
+        {
+            Console.WriteLine("Man, I love me some C#!");
         }
     }
 }
