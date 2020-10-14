@@ -6,25 +6,15 @@ namespace lesson4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Welcome();
-            NewMethod();
-            ForRealBro();
+            GreetPerson("Emilia");
+            GreetPerson("Thomas");
+            GreetPerson("Gail");
+            GreetPerson("Abraham");
         }
 
-        public static void Welcome()
+        public static void GreetPerson(string personName)
         {
-            Console.WriteLine("Welcome to Earth!");
-        }
-
-        public static void NewMethod()
-        {
-            Console.WriteLine("I hope this works!");
-        }
-
-        public static void ForRealBro()
-        {
-            Console.WriteLine("Man, I love me some C#!");
+            Console.WriteLine("Hello " + personName);
         }
     }
 }
