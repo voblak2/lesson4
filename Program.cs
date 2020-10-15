@@ -6,15 +6,18 @@ namespace lesson4
     {
         static void Main(string[] args)
         {
-            GreetPerson("Emilia");
-            GreetPerson("Thomas");
-            GreetPerson("Gail");
-            GreetPerson("Abraham");
+            int num1 = 1;
+            int num2 = 2;
+
+            // store the returned value of the "add" method
+            int sum = Add(num1, num2);
+            Console.WriteLine(sum);
         }
 
-        public static void GreetPerson(string personName)
+        // add method returns an integer
+        public static int Add(int number1, int number2)
         {
-            Console.WriteLine("Hello " + personName);
+            return (number1 + number2);
         }
     }
 }
